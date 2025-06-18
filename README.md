@@ -6,14 +6,14 @@ A comprehensive Model Context Protocol (MCP) server that provides AI-assisted de
 
 ### 🎯 Multi-Editor Support
 - **Claude Code**: CLAUDE.md files, clear project structure, TypeScript integration
-- **Cursor**: .cursorrules files, AI code completion optimization, custom rules
+- **Cursor**: .mdc files, AI code completion optimization, custom rules
 - **VS Code**: Extensions, debugging, formatting tools configuration
 - **Windsurf**: AI-assisted programming, intelligent code generation
 
 ### 🛠️ Core Functionality
 - **Environment Auto-Detection**: Automatically detects your current editor and provides tailored recommendations
 - **141+ Cursor Rules**: Access to curated rules from [awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) repository
-- **Dynamic Rule Management**: Create, update, and manage .cursorrules files
+- **Dynamic Rule Management**: Create, update, and manage .mdc files
 - **Best Practices Guidance**: Editor-specific best practices and optimization tips
 - **Real-time Updates**: Keep cursor rules up-to-date with the latest community standards
 
@@ -29,7 +29,7 @@ The main tool that provides comprehensive coding best practices functionality.
 | `detect_environment` | Auto-detect current editor and show environment info |
 | `list_platforms` | Show all supported platforms and their detection status |
 | `list_rules` | List available cursor rules (141+ rules available) |
-| `create` | Create .cursorrules file with selected rules and platform practices |
+| `create` | Create .mdc file with selected rules and platform practices |
 | `response_content` | Return rule content without creating files |
 | `update_rules` | Update cursor rules from the latest repository |
 
@@ -67,7 +67,7 @@ The main tool that provides comprehensive coding best practices functionality.
 }
 ```
 
-### 4. Create .cursorrules File (Auto-detect Editor)
+### 4. Create .mdc File (Auto-detect Editor)
 ```json
 {
   "action": "create",
@@ -107,7 +107,7 @@ The main tool that provides comprehensive coding best practices functionality.
 - Include setup instructions in CLAUDE.md for environment context
 
 ### Cursor
-- Create .cursorrules files for project-specific AI instructions
+- Create .mdc files for project-specific AI instructions
 - Use Cursor's AI code completion features effectively
 - Configure Cursor's AI model preference settings
 - Leverage Cursor's code explanation and refactoring suggestions

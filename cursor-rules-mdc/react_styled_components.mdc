@@ -56,7 +56,7 @@ This file contains cursor rules for react styled components development.
 
 To use these rules:
 1. Copy the content between the ``` markers
-2. Create a `.cursorrules` file in your project root
+2. Create a `.mdc` file in your project root
 3. Paste the content into the file
 4. Customize as needed for your specific project
 
