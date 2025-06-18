@@ -1,6 +1,6 @@
 {
   "name": "@tedweixx/mcp-coding-best-practices",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "A Model Context Protocol server for coding best practices across multiple editors (Cursor, VS Code, Claude Code, Windsurf). Supports .mdc and .cursorrules formats with 141+ rules from awesome-cursorrules.",
   "type": "module",
   "author": "Hunter",
