@@ -1,5 +1,5 @@
 {
-  "name": "mcp-coding-best-practices",
+  "name": "@tedweixx/mcp-coding-best-practices",
   "version": "0.1.0",
   "description": "A Model Context Protocol server for coding best practices across multiple editors (Cursor, VS Code, Claude Code, Windsurf). Supports .mdc and .cursorrules formats with 141+ rules from awesome-cursorrules.",
   "type": "module",
@@ -21,6 +21,9 @@
   "files": [
     "build"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
     "prepare": "npm run build",
