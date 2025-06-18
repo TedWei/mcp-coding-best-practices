@@ -56,16 +56,16 @@ jobs:
             ## Changes in v${{ steps.get_version.outputs.VERSION }}
             
             - Auto-generated release from tag push
-            - Package published to NPM: https://www.npmjs.com/package/mcp-coding-best-practices
+            - Package published to NPM: https://www.npmjs.com/package/@tedweixx/mcp-coding-best-practices
             
             ## Installation
             ```bash
-            npm install -g mcp-coding-best-practices
+            npm install -g @tedweixx/mcp-coding-best-practices
             ```
             
             ## Usage
             ```bash
-            npx -y mcp-coding-best-practices
+            npx -y @tedweixx/mcp-coding-best-practices
             ```
           draft: false
           prerelease: false
