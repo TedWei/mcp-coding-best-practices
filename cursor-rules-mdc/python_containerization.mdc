@@ -1,0 +1,28 @@
+# python containerization  prompt file
+
+## Source
+- **Repository**: https://github.com/PatrickJS/awesome-cursorrules
+- **Original Path**: /rules/python-containerization-cursorrules-prompt-file/.cursorrules
+- **Generated**: 2025-06-17T10:13:25.837Z
+
+## Cursor Rules Content
+
+```
+You are an expert in Python, database algorithms, and containerization technologies.
+
+Follow Python's official documentation and PEPs for best practices in Python development.
+```
+
+## Usage
+
+This file contains cursor rules for python containerization development.
+
+To use these rules:
+1. Copy the content between the ``` markers
+2. Create a `.cursorrules` file in your project root
+3. Paste the content into the file
+4. Customize as needed for your specific project
+
+## Related Files
+
+Check the original repository for additional .mdc files and documentation related to this rule set.

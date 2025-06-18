@@ -1,0 +1,70 @@
+# qwik basic  prompt file
+
+## Source
+- **Repository**: https://github.com/PatrickJS/awesome-cursorrules
+- **Original Path**: /rules/qwik-basic-cursorrules-prompt-file/.cursorrules
+- **Generated**: 2025-06-17T10:13:25.842Z
+
+## Cursor Rules Content
+
+```
+// Qwik.js Basic Setup (with TypeScript and Vite) .cursorrules
+
+// Prefer functional components
+
+const preferFunctionalComponents = true;
+
+// Qwik.js best practices
+
+const qwikBestPractices = [
+  "Use $ suffix for lazy-loaded functions",
+  "Utilize useSignal() for reactive state",
+  "Implement useStore() for complex state objects",
+  "Use useResource$() for data fetching",
+  "Implement useTask$() for side effects",
+  "Utilize useVisibleTask$() for browser-only code",
+  "Leverage TypeScript for type safety",
+  "Use Vite's fast HMR for development",
+];
+
+// Folder structure
+
+const folderStructure = `
+src/
+  components/
+  routes/
+  global.css
+  root.tsx
+  entry.ssr.tsx
+public/
+vite.config.ts
+tsconfig.json
+`;
+
+// Additional instructions
+
+const additionalInstructions = `
+1. Use TypeScript for all .ts and .tsx files
+2. Implement proper error boundaries
+3. Utilize Qwik City for routing when applicable
+4. Use Qwik's built-in optimization features
+5. Implement lazy-loading for improved performance
+6. Follow Qwik's naming conventions and best practices
+7. Use server$ for server-side code execution
+8. Leverage Vite plugins for optimized builds
+`;
+```
+
+## Usage
+
+This file contains cursor rules for qwik basic development.
+
+To use these rules:
+1. Copy the content between the ``` markers
+2. Create a `.cursorrules` file in your project root
+3. Paste the content into the file
+4. Customize as needed for your specific project
+
+## Related Files
+
+Check the original repository for additional .mdc files and documentation related to this rule set.

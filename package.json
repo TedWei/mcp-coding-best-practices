@@ -1,0 +1,46 @@
+{
+  "name": "mcp-coding-best-practices",
+  "version": "0.1.0",
+  "description": "A Model Context Protocol server for coding best practices across multiple editors (Cursor, VS Code, Claude Code, Windsurf). Supports .mdc and .cursorrules formats with 141+ rules from awesome-cursorrules.",
+  "type": "module",
+  "author": "Hunter",
+  "license": "MIT",
+  "keywords": ["mcp", "model-context-protocol", "coding-best-practices", "cursor", "vscode", "claude", "windsurf", "cursorrules", "mdc"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tedwei/mcp-coding-best-practices.git",
+    "directory": "mcp-coding-best-practices"
+  },
+  "homepage": "https://github.com/tedwei/mcp-coding-best-practices/tree/main",
+  "bugs": {
+    "url": "https://github.com/tedwei/mcp-coding-best-practices/issues"
+  },
+  "bin": {
+    "mcp-coding-best-practices": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix",
+    "type-check": "tsc --noEmit",
+    "test": "npm run lint && npm run type-check && npm run build",
+    "prepublishOnly": "npm run test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "0.6.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.3.3"
+  }
+}

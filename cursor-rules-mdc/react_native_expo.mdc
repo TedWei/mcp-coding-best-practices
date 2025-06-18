@@ -1,0 +1,63 @@
+# react native expo  prompt file
+
+## Source
+- **Repository**: https://github.com/PatrickJS/awesome-cursorrules
+- **Original Path**: /rules/react-native-expo-cursorrules-prompt-file/.cursorrules
+- **Generated**: 2025-06-17T10:13:25.843Z
+
+## Cursor Rules Content
+
+```
+// React Native Expo .cursorrules
+
+// React Native Expo best practices
+
+const reactNativeExpoBestPractices = [
+  "Use functional components with hooks",
+  "Utilize Expo SDK features and APIs",
+  "Implement proper navigation using React Navigation",
+  "Use Expo's asset system for images and fonts",
+  "Implement proper error handling and crash reporting",
+  "Utilize Expo's push notification system",
+];
+
+// Folder structure
+
+const folderStructure = `
+assets/
+src/
+  components/
+  screens/
+  navigation/
+  hooks/
+  utils/
+App.js
+app.json
+`;
+
+// Additional instructions
+
+const additionalInstructions = `
+1. Use TypeScript for type safety
+2. Implement proper styling using StyleSheet
+3. Utilize Expo's vector icons
+4. Use Expo's secure store for sensitive data
+5. Implement proper offline support
+6. Follow React Native best practices for performance
+7. Use Expo's OTA updates for quick deployments
+`;
+```
+
+## Usage
+
+This file contains cursor rules for react native expo development.
+
+To use these rules:
+1. Copy the content between the ``` markers
+2. Create a `.cursorrules` file in your project root
+3. Paste the content into the file
+4. Customize as needed for your specific project
+
+## Related Files
+
+Check the original repository for additional .mdc files and documentation related to this rule set.

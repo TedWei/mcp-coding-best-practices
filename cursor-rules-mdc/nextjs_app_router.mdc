@@ -1,0 +1,62 @@
+# nextjs app router  prompt file
+
+## Source
+- **Repository**: https://github.com/PatrickJS/awesome-cursorrules
+- **Original Path**: /rules/nextjs-app-router-cursorrules-prompt-file/.cursorrules
+- **Generated**: 2025-06-17T10:13:25.828Z
+
+## Cursor Rules Content
+
+```
+// Next.js App Router .cursorrules
+
+// Next.js App Router best practices
+
+const nextjsAppRouterBestPractices = [
+  "Use server components by default",
+  "Implement client components only when necessary",
+  "Utilize the new file-based routing system",
+  "Use layout.js for shared layouts",
+  "Implement loading.js for loading states",
+  "Use error.js for error handling",
+  "Utilize route handlers for API routes",
+];
+
+// Folder structure
+
+const folderStructure = `
+app/
+  layout.js
+  page.js
+  components/
+  lib/
+  styles/
+public/
+`;
+
+// Additional instructions
+
+const additionalInstructions = `
+1. Use TypeScript for type safety
+2. Implement proper metadata for SEO
+3. Utilize Next.js Image component for optimized images
+4. Use CSS Modules or Tailwind CSS for styling
+5. Implement proper error boundaries
+6. Follow Next.js naming conventions for special files
+7. Use environment variables for configuration
+`;
+```
+
+## Usage
+
+This file contains cursor rules for nextjs app router development.
+
+To use these rules:
+1. Copy the content between the ``` markers
+2. Create a `.cursorrules` file in your project root
+3. Paste the content into the file
+4. Customize as needed for your specific project
+
+## Related Files
+
+Check the original repository for additional .mdc files and documentation related to this rule set.

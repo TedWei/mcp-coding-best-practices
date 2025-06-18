@@ -1,0 +1,38 @@
+# deno integration techniques  prompt fil
+
+## Source
+- **Repository**: https://github.com/PatrickJS/awesome-cursorrules
+- **Original Path**: /rules/deno-integration-techniques-cursorrules-prompt-fil/.cursorrules
+- **Generated**: 2025-06-17T10:13:25.815Z
+
+## Cursor Rules Content
+
+```
+This project contains automation scripts and workflows for the @findhow packages, based on the original Deno automation repository. The goal is to provide consistent and efficient automation for the @findhow ecosystem.
+
+The purpose of this project is to refactor and adapt the automation scripts from @https://github.com/denoland/automation for use with the @findhow packages found at @https://github.com/zhorton34/findhow.
+
+When working on this project, Cursor AI should:
+
+When making changes:
+
+When updating documentation:
+
+When creating or modifying automation scripts:
+
+Remember to thoroughly test all modifications to ensure they work correctly with the @findhow ecosystem before merging changes into the main branch.
+```
+
+## Usage
+
+This file contains cursor rules for deno integration techniques cursorrules prompt fil development.
+
+To use these rules:
+1. Copy the content between the ``` markers
+2. Create a `.cursorrules` file in your project root
+3. Paste the content into the file
+4. Customize as needed for your specific project
+
+## Related Files
+
+Check the original repository for additional .mdc files and documentation related to this rule set.

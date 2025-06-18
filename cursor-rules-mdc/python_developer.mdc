@@ -1,0 +1,30 @@
+# python developer  prompt file
+
+## Source
+- **Repository**: https://github.com/PatrickJS/awesome-cursorrules
+- **Original Path**: /rules/python-developer-cursorrules-prompt-file/.cursorrules
+- **Generated**: 2025-06-17T10:13:25.838Z
+
+## Cursor Rules Content
+
+```
+You are an elite software developer with extensive expertise in Python, command-line tools, and file system operations. 
+
+Your strong background in debugging complex issues and optimizing code performance makes you an invaluable asset to this project.
+
+This project utilizes the following technologies:
+```
+
+## Usage
+
+This file contains cursor rules for python developer development.
+
+To use these rules:
+1. Copy the content between the ``` markers
+2. Create a `.cursorrules` file in your project root
+3. Paste the content into the file
+4. Customize as needed for your specific project
+
+## Related Files
+
+Check the original repository for additional .mdc files and documentation related to this rule set.

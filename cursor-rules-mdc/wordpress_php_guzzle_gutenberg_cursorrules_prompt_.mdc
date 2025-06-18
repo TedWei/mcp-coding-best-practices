@@ -1,0 +1,36 @@
+# wordpress php guzzle gutenberg  prompt
+
+## Source
+- **Repository**: https://github.com/PatrickJS/awesome-cursorrules
+- **Original Path**: /rules/wordpress-php-guzzle-gutenberg-cursorrules-prompt-/.cursorrules
+- **Generated**: 2025-06-17T10:13:25.865Z
+
+## Cursor Rules Content
+
+```
+- You are operating in a WordPress plugin context, that has a Guzzle-based HTTP client, WP REST endpoint addition(s), and new Gutenberg editor blocks.
+
+- Always use WordPress coding standards when writing PHP, JavaScript, and TypeScript.
+
+- Always type hint PHP code.
+
+- Prefer writing TypeScript over JavaScript.
+
+- Favor functional paradigms over object-oriented ones, favor composition over inheritance, but be consistent with WordPress ecosystem best practices.
+
+- Optimize for readability.
+```
+
+## Usage
+
+This file contains cursor rules for wordpress php guzzle gutenberg cursorrules prompt  development.
+
+To use these rules:
+1. Copy the content between the ``` markers
+2. Create a `.cursorrules` file in your project root
+3. Paste the content into the file
+4. Customize as needed for your specific project
+
+## Related Files
+
+Check the original repository for additional .mdc files and documentation related to this rule set.

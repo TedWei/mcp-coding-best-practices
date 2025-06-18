@@ -1,0 +1,68 @@
+# solidjs typescript  prompt file
+
+## Source
+- **Repository**: https://github.com/PatrickJS/awesome-cursorrules
+- **Original Path**: /rules/solidjs-typescript-cursorrules-prompt-file/.cursorrules
+- **Generated**: 2025-06-17T10:13:25.849Z
+
+## Cursor Rules Content
+
+```
+// Solid.js with TypeScript .cursorrules
+
+// Prefer functional components
+
+const preferFunctionalComponents = true;
+
+// Solid.js and TypeScript best practices
+
+const solidjsTypeScriptBestPractices = [
+  "Use createSignal<T>() for typed reactive state",
+  "Implement proper type definitions for components",
+  "Utilize TypeScript's strict mode",
+  "Use type inference where possible",
+  "Implement interfaces for complex prop types",
+  "Utilize utility types provided by Solid.js",
+];
+
+// Folder structure
+
+const folderStructure = `
+src/
+  components/
+  pages/
+  utils/
+  types/
+  App.tsx
+  index.tsx
+public/
+  index.html
+tsconfig.json
+`;
+
+// Additional instructions
+
+const additionalInstructions = `
+1. Use .tsx extension for files with JSX
+2. Implement strict TypeScript checks
+3. Utilize Solid Router with proper typing
+4. Use type-safe context with createContext
+5. Implement proper typing for event handlers
+6. Follow TypeScript best practices and naming conventions
+7. Use type assertions sparingly and only when necessary
+`;
+```
+
+## Usage
+
+This file contains cursor rules for solidjs typescript development.
+
+To use these rules:
+1. Copy the content between the ``` markers
+2. Create a `.cursorrules` file in your project root
+3. Paste the content into the file
+4. Customize as needed for your specific project
+
+## Related Files
+
+Check the original repository for additional .mdc files and documentation related to this rule set.

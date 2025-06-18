@@ -1,0 +1,72 @@
+# qwik tailwind  prompt file
+
+## Source
+- **Repository**: https://github.com/PatrickJS/awesome-cursorrules
+- **Original Path**: /rules/qwik-tailwind-cursorrules-prompt-file/.cursorrules
+- **Generated**: 2025-06-17T10:13:25.842Z
+
+## Cursor Rules Content
+
+```
+// Qwik.js with Tailwind CSS (TypeScript and Vite included) .cursorrules
+
+// Prefer functional components
+
+const preferFunctionalComponents = true;
+
+// Qwik.js and Tailwind CSS best practices
+
+const qwikTailwindBestPractices = [
+  "Use $ suffix for lazy-loaded functions",
+  "Utilize useSignal() for reactive state",
+  "Implement Tailwind CSS classes for styling",
+  "Use @apply directive in CSS files for reusable styles",
+  "Implement responsive design using Tailwind's responsive classes",
+  "Utilize Tailwind's configuration file for customization",
+  "Leverage TypeScript for type safety",
+  "Use Vite's fast HMR for development",
+];
+
+// Folder structure
+
+const folderStructure = `
+src/
+  components/
+  routes/
+  global.css
+  root.tsx
+  entry.ssr.tsx
+public/
+tailwind.config.js
+postcss.config.js
+vite.config.ts
+tsconfig.json
+`;
+
+// Additional instructions
+
+const additionalInstructions = `
+1. Use TypeScript for all .ts and .tsx files
+2. Implement proper Tailwind CSS purging for production builds
+3. Utilize Qwik City for routing when applicable
+4. Use Tailwind's @layer directive for custom styles
+5. Implement dark mode using Tailwind's dark variant
+6. Follow both Qwik and Tailwind naming conventions
+7. Use server$ for server-side code execution
+8. Leverage Vite plugins for optimized builds
+`;
+```
+
+## Usage
+
+This file contains cursor rules for qwik tailwind development.
+
+To use these rules:
+1. Copy the content between the ``` markers
+2. Create a `.cursorrules` file in your project root
+3. Paste the content into the file
+4. Customize as needed for your specific project
+
+## Related Files
+
+Check the original repository for additional .mdc files and documentation related to this rule set.

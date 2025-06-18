@@ -1,0 +1,80 @@
+# typescript zod tailwind nextjs  prompt
+
+## Source
+- **Repository**: https://github.com/PatrickJS/awesome-cursorrules
+- **Original Path**: /rules/typescript-zod-tailwind-nextjs-cursorrules-prompt-/.cursorrules
+- **Generated**: 2025-06-17T10:13:25.862Z
+
+## Cursor Rules Content
+
+```
+# Coding Style Guide
+
+Code Style and Structure:
+- Write concise, technical TypeScript code with accurate examples
+- Use functional and declarative programming patterns; avoid classes
+- Prefer iteration and modularization over code duplication
+- Use descriptive variable names with auxiliary verbs (e.g., isLoading, hasError)
+- Structure files: exported component, subcomponents, helpers, static content, types
+
+Naming Conventions:
+- Use lowercase with dashes for directories (e.g., components/auth-wizard)
+- Favor named exports for components
+
+TypeScript Usage:
+- Use TypeScript for all code; prefer interfaces over types
+- Avoid enums; use maps instead
+- Use functional components with TypeScript interfaces
+- Use Zod for form validation
+
+Syntax and Formatting:
+- Use the "function" keyword for pure functions
+- Avoid unnecessary curly braces in conditionals; use concise syntax for simple statements
+- Use declarative JSX
+
+Error Handling and Validation:
+- Prioritize error handling: handle errors and edge cases early
+- Use early returns and guard clauses
+- Implement proper error logging and user-friendly messages
+- Use Zod for form validation
+- Model expected errors as return values in Server Actions
+- Use error boundaries for unexpected errors
+
+UI and Styling:
+- Use Shadcn UI, Radix, and Tailwind Aria for components and styling
+- Implement responsive design with Tailwind CSS; use a desktop-first approach
+
+Performance Optimization:
+- Minimize 'useEffect', and 'setState'; favor React Remix Components (RSC)
+- Wrap client components in Suspense with fallback
+- Use dynamic loading for non-critical components
+- Optimize images: use WebP format, include size data, implement lazy loading
+
+Key Conventions:
+- Use proper URL search parameter state management
+- Optimize Web Vitals (LCP, CLS, FID)
+- Limit 'use client'
+
+When React Server Components (RSC) are used:
+- Favor server components and Next.js SSR
+- Use only for Web API access in small components
+- Avoid for data fetching or state management
+
+Follow React Remix docs for Data Fetching, Rendering, and Routing
+
+Follow Next.js docs for Data Fetching, Rendering, and Routing when Next JS is used instead of React Remix
+```
+
+## Usage
+
+This file contains cursor rules for typescript zod tailwind nextjs cursorrules prompt  development.
+
+To use these rules:
+1. Copy the content between the ``` markers
+2. Create a `.cursorrules` file in your project root
+3. Paste the content into the file
+4. Customize as needed for your specific project
+
+## Related Files
+
+Check the original repository for additional .mdc files and documentation related to this rule set.

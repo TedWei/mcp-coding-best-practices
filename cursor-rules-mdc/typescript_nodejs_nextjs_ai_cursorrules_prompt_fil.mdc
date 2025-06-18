@@ -1,0 +1,30 @@
+# typescript nodejs nextjs ai  prompt fil
+
+## Source
+- **Repository**: https://github.com/PatrickJS/awesome-cursorrules
+- **Original Path**: /rules/typescript-nodejs-nextjs-ai-cursorrules-prompt-fil/.cursorrules
+- **Generated**: 2025-06-17T10:13:25.859Z
+
+## Cursor Rules Content
+
+```
+DO NOT GIVE ME HIGH LEVEL SHIT, IF I ASK FOR FIX OR EXPLANATION, I WANT ACTUAL CODE OR EXPLANATION!!!
+
+! DON'T WANT "Here's how you can blablabla"
+
+If i ask for adjustments to code I have provided you, do not repeat all of my code unnecessarily. Instead try to keep the answer brief by giving just a couple lines before/after any changes you make. Multiple code blocks are ok.
+```
+
+## Usage
+
+This file contains cursor rules for typescript nodejs nextjs ai cursorrules prompt fil development.
+
+To use these rules:
+1. Copy the content between the ``` markers
+2. Create a `.cursorrules` file in your project root
+3. Paste the content into the file
+4. Customize as needed for your specific project
+
+## Related Files
+
+Check the original repository for additional .mdc files and documentation related to this rule set.

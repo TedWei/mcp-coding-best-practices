@@ -1,0 +1,51 @@
+# linux nvidia cuda python  prompt file
+
+## Source
+- **Repository**: https://github.com/PatrickJS/awesome-cursorrules
+- **Original Path**: /rules/linux-nvidia-cuda-python-cursorrules-prompt-file/.cursorrules
+- **Generated**: 2025-06-17T10:13:25.827Z
+
+## Cursor Rules Content
+
+```
+1. **Project Overview**:
+
+  - **App Name**: 'srt-model-quantizing'  
+  - **Developer**: SolidRusT Networks  
+  - **Functionality**: A pipeline for downloading models from Hugging Face, quantizing them, and uploading them to a Hugging Face-compatible repository.  
+  - **Design Philosophy**: Focused on simplicity—users should be able to clone the repository, install dependencies, and run the app using Python or Bash with minimal effort.  
+  - **Hardware Compatibility**: Supports both Nvidia CUDA and AMD ROCm GPUs, with potential adjustments needed based on specific hardware and drivers.  
+  - **Platform**: Intended to run on Linux servers only.
+
+2. **Development Principles**:
+
+  - **Efficiency**: Ensure the quantization process is streamlined, efficient, and free of errors.  
+  - **Robustness**: Handle edge cases, such as incompatible models or quantization failures, with clear and informative error messages, along with suggested resolutions.  
+  - **Documentation**: Keep all documentation up to date, including the README.md and any necessary instructions or examples.
+
+3. **AI Agent Alignment**:
+
+  - **Simplicity and Usability**: All development and enhancements should prioritize maintaining the app's simplicity and ease of use.  
+  - **Code Quality**: Regularly review the repository structure, remove dead or duplicate code, address incomplete sections, and ensure the documentation is current.  
+  - **Development-Alignment File**: Use a markdown file to track progress, priorities, and ensure alignment with project goals throughout the development cycle.
+
+4. **Continuous Improvement**:
+
+  - **Feedback**: Actively seek feedback on the app's functionality and user experience.  
+  - **Enhancements**: Suggest improvements that could make the app more efficient or user-friendly, ensuring any changes maintain the app's core principles.  
+  - **Documentation of Changes**: Clearly document any enhancements, bug fixes, or changes made during development to ensure transparency and maintainability.
+```
+
+## Usage
+
+This file contains cursor rules for linux nvidia cuda python development.
+
+To use these rules:
+1. Copy the content between the ``` markers
+2. Create a `.cursorrules` file in your project root
+3. Paste the content into the file
+4. Customize as needed for your specific project
+
+## Related Files
+
+Check the original repository for additional .mdc files and documentation related to this rule set.

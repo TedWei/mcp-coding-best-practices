@@ -1,0 +1,44 @@
+# python flask json guide  prompt file
+
+## Source
+- **Repository**: https://github.com/PatrickJS/awesome-cursorrules
+- **Original Path**: /rules/python-flask-json-guide-cursorrules-prompt-file/.cursorrules
+- **Generated**: 2025-06-17T10:13:25.840Z
+
+## Cursor Rules Content
+
+```
+This project is heavily reliant on our custom Drawscape Factorio python module.
+
+Here is code examples of how to use the module:
+
+```python
+from drawscape_factorio import create as createFactorio
+from drawscape_factorio import importFUE5
+
+with open('/path/to/exported-entities.json', 'r') as file:
+    json_data = json.load(file)
+    data = importFUE5(json_data)
+    result = createFactorio(data, {
+        'theme_name': 'default',
+        'color_scheme': 'main',
+        'show_layers': ['assets', 'belts', 'walls', 'rails', 'electrical', 'spaceship']
+    })
+
+with open(output_file_name, 'w') as f:
+    f.write(result['svg_string'])
+```
+
+## Usage
+
+This file contains cursor rules for python flask json guide development.
+
+To use these rules:
+1. Copy the content between the ``` markers
+2. Create a `.cursorrules` file in your project root
+3. Paste the content into the file
+4. Customize as needed for your specific project
+
+## Related Files
+
+Check the original repository for additional .mdc files and documentation related to this rule set.

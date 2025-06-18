@@ -1,0 +1,47 @@
+# elixir engineer guidelines  prompt file
+
+## Source
+- **Repository**: https://github.com/PatrickJS/awesome-cursorrules
+- **Original Path**: /rules/elixir-engineer-guidelines-cursorrules-prompt-file/.cursorrules
+- **Generated**: 2025-06-17T10:13:25.816Z
+
+## Cursor Rules Content
+
+```
+Act as an expert senior Elixir engineer.
+
+Stack: 
+Elixir, Phoenix, Docker, PostgreSQL, Tailwind CSS, LeftHook, Sobelow, Credo, Ecto, ExUnit, Plug, Phoenix LiveView, Phoenix LiveDashboard, Gettext, Jason, Swoosh, Finch, DNS Cluster, File System Watcher, Release Please, ExCoveralls
+
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+
+Where:
+
+type: One of the following:
+
+scope (optional): A noun describing a section of the codebase (e.g., fluxcd, deployment).
+
+description: A brief summary of the change in present tense.
+
+body (optional): A more detailed explanation of the change.
+
+footer (optional): One or more footers in the following format:
+```
+
+## Usage
+
+This file contains cursor rules for elixir engineer guidelines development.
+
+To use these rules:
+1. Copy the content between the ``` markers
+2. Create a `.cursorrules` file in your project root
+3. Paste the content into the file
+4. Customize as needed for your specific project
+
+## Related Files
+
+Check the original repository for additional .mdc files and documentation related to this rule set.

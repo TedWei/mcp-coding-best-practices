@@ -1,0 +1,67 @@
+# htmx django  prompt file
+
+## Source
+- **Repository**: https://github.com/PatrickJS/awesome-cursorrules
+- **Original Path**: /rules/htmx-django-cursorrules-prompt-file/.cursorrules
+- **Generated**: 2025-06-17T10:13:25.821Z
+
+## Cursor Rules Content
+
+```
+// HTMX with Django .cursorrules
+
+// HTMX and Django best practices
+
+const htmxDjangoBestPractices = [
+  "Use Django's template system with HTMX attributes",
+  "Implement Django forms for form handling",
+  "Utilize Django's URL routing system",
+  "Use Django's class-based views for HTMX responses",
+  "Implement Django ORM for database operations",
+  "Utilize Django's middleware for request/response processing",
+];
+
+// Folder structure
+
+const folderStructure = `
+project_name/
+  app_name/
+    templates/
+    static/
+      css/
+      js/
+    models.py
+    views.py
+    urls.py
+  project_name/
+    settings.py
+    urls.py
+manage.py
+`;
+
+// Additional instructions
+
+const additionalInstructions = `
+1. Use Django's template tags with HTMX attributes
+2. Implement proper CSRF protection with Django's built-in features
+3. Utilize Django's HttpResponse for HTMX-specific responses
+4. Use Django's form validation for HTMX requests
+5. Implement proper error handling and logging
+6. Follow Django's best practices for project structure
+7. Use Django's staticfiles app for managing static assets
+`;
+```
+
+## Usage
+
+This file contains cursor rules for htmx django development.
+
+To use these rules:
+1. Copy the content between the ``` markers
+2. Create a `.cursorrules` file in your project root
+3. Paste the content into the file
+4. Customize as needed for your specific project
+
+## Related Files
+
+Check the original repository for additional .mdc files and documentation related to this rule set.

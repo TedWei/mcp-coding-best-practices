@@ -1,0 +1,69 @@
+# react redux typescript  prompt file
+
+## Source
+- **Repository**: https://github.com/PatrickJS/awesome-cursorrules
+- **Original Path**: /rules/react-redux-typescript-cursorrules-prompt-file/.cursorrules
+- **Generated**: 2025-06-17T10:13:25.844Z
+
+## Cursor Rules Content
+
+```
+// React + Redux + TypeScript .cursorrules
+
+// Prefer functional components with hooks
+
+const preferFunctionalComponents = true;
+
+// Use TypeScript for type safety
+
+const useTypeScript = true;
+
+// Redux best practices
+
+const reduxBestPractices = [
+  "Use Redux Toolkit for efficient Redux development",
+  "Implement slice pattern for organizing Redux code",
+  "Utilize createAsyncThunk for handling async actions",
+  "Use selectors for accessing state in components",
+];
+
+// Folder structure
+
+const folderStructure = `
+src/
+  components/
+  features/
+  store/
+    slices/
+    hooks.ts
+    store.ts
+  types/
+  utils/
+`;
+
+// Additional instructions
+
+const additionalInstructions = `
+1. Use React.FC for functional components with props
+2. Implement strict TypeScript checks
+3. Use Redux hooks (useSelector, useDispatch) in components
+4. Create reusable typed hooks for Redux operations
+5. Implement proper error handling in async operations
+6. Use Redux DevTools for debugging
+7. Follow Redux style guide for naming conventions
+`;
+```
+
+## Usage
+
+This file contains cursor rules for react redux typescript development.
+
+To use these rules:
+1. Copy the content between the ``` markers
+2. Create a `.cursorrules` file in your project root
+3. Paste the content into the file
+4. Customize as needed for your specific project
+
+## Related Files
+
+Check the original repository for additional .mdc files and documentation related to this rule set.
