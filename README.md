@@ -198,7 +198,7 @@ with npx
   "mcpServers": {
     "mcp-coding-best-practices": {
       "command": "npx",
-      "args": ["-y","@tedwei/mcp-coding-best-practices"]
+      "args": ["-y","@tedweixx/mcp-coding-best-practices"]
     }
   }
 }

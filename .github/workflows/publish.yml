@@ -60,11 +60,11 @@ jobs:
             ## Changes in v${{ steps.get_version.outputs.VERSION }}
             
             - Auto-generated release from tag push
-            - Package published to NPM: https://www.npmjs.com/package/@tedwei/mcp-coding-best-practices
+            - Package published to NPM: https://www.npmjs.com/package/@tedweixx/mcp-coding-best-practices
             
             ## Installation
             ```bash
-            npm install -g @tedwei/mcp-coding-best-practices
+            npm install -g @tedweixx/mcp-coding-best-practices
             ```
             
             ## Usage
